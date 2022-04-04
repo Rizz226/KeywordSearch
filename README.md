@@ -1,6 +1,7 @@
-# KeywordSearch
+
 > Python script for long-term monitoring of keywords
-> Keyword Monitoring tool v1.0
+
+# Keyword Monitoring tool v1.0
 
 This is an script to automate searx and (experimentally) pastebin searches, then send them to an email
 of your choosing.
