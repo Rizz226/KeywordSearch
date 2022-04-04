@@ -9,7 +9,7 @@ This tool requires a text file called "keywords.txt" where you will input your s
 if there is no keywords.txt, please create one and seperate each keyword by a line break. A full history
 can be found in the /keywords/ directory, it will have URL's seperated by keyword.
 
-This was developed and tested using searx in a Docker container, the commands to start the contianer are:
+This was developed and tested using searx in a Docker container, the commands to start the container are:
 
 ``` 
 docker pull searx/searx
