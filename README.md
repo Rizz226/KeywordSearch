@@ -15,7 +15,7 @@ This was developed and tested using searx in a Docker container, the commands to
 docker pull searx/searx
 docker run --rm -d -v ${PWD}/searx:/etc/searx -p 8080:8080 -e BASE_URL=http://localhost:8080/ searx/searx
 ```
-Ensure the 
+
 Visit http://localhost:8080 to ensure the container is running properly
 
 Known issue: this script sends an email every time the loop completes. This generates a lot of noise.
