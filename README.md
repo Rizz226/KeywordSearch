@@ -1,5 +1,5 @@
 
-> Python script for long-term monitoring of keywords
+> Python script for long-term keywords monitoring
 
 # Keyword Monitoring Script v1.0
 
