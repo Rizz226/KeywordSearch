@@ -19,5 +19,6 @@ Ensure the
 Visit http://localhost:8080 to ensure the container is running properly
 
 Known issue: this script sends an email every time the loop completes. This generates a lot of noise.
+
 Workaround: Send the mail to a dummy email address with forwarding rules to forward any message 
 with "HTTP://" or "HTTPS://" in the message body.
