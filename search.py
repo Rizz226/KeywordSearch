@@ -54,7 +54,7 @@ def send_alert(alert_email):
 	server.sendmail(alert_email_account, alert_email_account, msg.as_string())
 	server.close()
 
-	print("[!] Alert email sent!")									# MIKE: added ()
+	print("[!] Alert email sent!")
 
 	return
 
@@ -91,7 +91,7 @@ def check_searx(keyword):
 	params['categories']	= 'general'
 	params['time_ranges']	= 'day' # can be day, month, or year
 	params['format']		= 'json'
-	print ("[*] Querying searx for: {0}".format(keyword))			# MIKE: changed to .format method.  This uses indexing {0}
+	print ("[*] Querying searx for: {0}".format(keyword))			
 	# send the request to searx
 	try:
 		response = requests.get(searx_url, params=params)
